@@ -1,2 +1,2 @@
 [console_scripts]
-devcli = devcli.main:main
+devcli = devcli.cli:main

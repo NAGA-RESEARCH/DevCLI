@@ -11,15 +11,15 @@ with open(requirements_path, encoding='utf-8') as f:
 
 setup(
     name="devcli_nagalab",
-    version="0.1.0",
+    version="0.1.2",
     packages=find_packages(),
     install_requires=requirements,
     entry_points={
         'console_scripts': [
-            'devcli=devcli.main:main',
+            'devcli=devcli.cli:main',
         ],
     },
-    author="alexdarkmind",
+    author="Naga Research",
     description="A command line tool for developers",
     long_description=open(os.path.join(current_dir, 'README.md'), encoding='utf-8').read(),
     long_description_content_type='text/markdown',

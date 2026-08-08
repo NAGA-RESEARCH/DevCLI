@@ -1,1 +1,6 @@
-
+addons
+commands
+devcli
+installer
+templates
+utils
