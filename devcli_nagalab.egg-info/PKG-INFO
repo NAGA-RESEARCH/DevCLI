@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: devcli_nagalab
+Version: 0.1.0
+Summary: A command line tool for developers
+Author: alexdarkmind
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: description-content-type
+Dynamic: summary

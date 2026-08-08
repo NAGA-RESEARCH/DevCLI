@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{project_name} - Django</title>
+    <!-- Django Static Files Tag -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="ms-3">{project_name}</h1>
+    </nav>
+    <div class="container mt-4">
+        <h2>Welcome to Your Django App!</h2>
+        <p>Yeh template DevCLI ke templates folder se dynamically generate hua hai.</p>
+    </div>
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html>

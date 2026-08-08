@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+devcli_nagalab.egg-info/PKG-INFO
+devcli_nagalab.egg-info/SOURCES.txt
+devcli_nagalab.egg-info/dependency_links.txt
+devcli_nagalab.egg-info/entry_points.txt
+devcli_nagalab.egg-info/top_level.txt
