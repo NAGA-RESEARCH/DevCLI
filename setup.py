@@ -11,8 +11,9 @@ with open(requirements_path, encoding='utf-8') as f:
 
 setup(
     name="devcli_nagalab",
-    version="0.1.2",
+    version="0.1.3",  # <-- Yahan version update kar diya hai (0.1.3)
     packages=find_packages(),
+    include_package_data=True,  # <-- Ye nayi line add karni bahut zaroori hai!
     install_requires=requirements,
     entry_points={
         'console_scripts': [
